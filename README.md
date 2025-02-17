@@ -1,6 +1,6 @@
 # OpenBlockchainForensics-Solana
 
-Welcome to **OpenBlockchainForensics-Solana**, an open-source, community-driven project dedicated to investigating blockchain activity on the Solana network through rigorous, data-driven forensics. Our initial focus is the $LIBRA token controversy, where insiders reportedly removed $87 million in liquidity, leading to allegations of fraud and a 94% crash in the token’s value. This project aims to trace these funds, particularly to centralized exchanges (CEXs), to confirm on-chain evidence, quantify off-ramping, and assess the speed of cashouts, providing transparency and accountability.
+Welcome to **OpenBlockchainForensics-Solana**, an open-source, community-driven project dedicated to investigating blockchain activity on the Solana network through rigorous, data-driven forensics. Our initial focus is the $LIBRA token controversy, where insiders reportedly removed millions in liquidity, leading to allegations of fraud and a crash in the token’s value. This project aims to trace these funds, particularly to centralized exchanges (CEXs), to confirm on-chain evidence, quantify off-ramping, and assess the speed of cashouts, providing transparency and accountability.
 
 We are committed to transparency, reproducibility, and collaboration, inviting contributions from affected users, X users, national universities, and the broader blockchain community. Join us in building a standard for blockchain forensics that empowers communities, supports regulatory action, and critically examines narratives to ensure objectivity.
 
