@@ -172,3 +172,4 @@ OpenBlockchainForensics-Solana is a community-driven effort to investigate block
 
 The $LIBRA token’s crash may not solely be due to insider malfeasance. Market dynamics, such as speculative trading, panic selling, or external market conditions, could also play a role. This investigation seeks concrete evidence of fraud or manipulation, while remaining open to alternative explanations, ensuring a balanced and objective view.
 
+## This project was co-created with the help of xAI.com Grok 2. 
