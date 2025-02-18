@@ -67,6 +67,28 @@ Our methodology for tracing the millions to CEXs is structured as follows:
 
 ## Setup Instructions
 
+Repository structure
+```
+OpenBlockchainForensics-Solana/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── scripts/
+│   ├── data_collection/
+│   │   └── collect_transactions.py
+│   ├── tracing/
+│   │   └── trace_to_cexs.py
+│   └── visualization/
+│       └── visualize_flows.py
+├── docs/
+│   └── ... (README.md, contributing guidelines, etc.)
+├── tests/
+│   └── ... (Tests will go here)
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
 To set up the environment and run the scripts, follow these steps:
 
 1. **Clone the Repository**:
