@@ -19,14 +19,14 @@ We are committed to transparency, reproducibility, and collaboration, inviting c
 
 ## Overview
 
-The $LIBRA token, launched on the Solana blockchain and promoted by Argentine President Javier Milei, gained significant attention in February 2025, with its market cap briefly reaching $4.5 billion before plummeting over 94%. Reports indicate that insiders removed $87 million in liquidity, primarily in USDC and SOL, from liquidity pools on decentralized exchanges (DEXs) like Meteora and Raydium, fueling allegations of a rug pull or insider manipulation. Blockchain analysis has revealed high concentration, with 90% of the token supply held by just three wallets and 82% unlocked and sellable from the start, raising further concerns about potential fraud.
+The $LIBRA token, launched on the Solana blockchain and promoted by Argentine President Javier Milei, gained significant attention in February 2025, with its market cap briefly reaching $4.5 billion before plummeting over 94%. Reports indicate that insiders removed millionz in liquidity, primarily in USDC and SOL, from liquidity pools on decentralized exchanges (DEXs) like Meteora and Raydium, fueling allegations of a rug pull or insider manipulation. Blockchain analysis has revealed high concentration, with 90% of the token supply held by just three wallets and 82% unlocked and sellable from the start, raising further concerns about potential fraud.
 
-**OpenBlockchainForensics-Solana** was created to investigate these allegations through transparent, open-source blockchain forensics, focusing on tracing the $87 million to CEXs to confirm off-ramping and assess rapid cashouts. By open-sourcing our code, data, and findings, we aim to empower affected users, engage the X community, collaborate with national universities, and provide actionable evidence for accountability, while critically examining the narrative to ensure objectivity.
+**OpenBlockchainForensics-Solana** was created to investigate these allegations through transparent, open-source blockchain forensics, focusing on tracing these millions to CEXs to confirm off-ramping and assess rapid cashouts. By open-sourcing our code, data, and findings, we aim to empower affected users, engage the X community, collaborate with national universities, and provide actionable evidence for accountability, while critically examining the narrative to ensure objectivity.
 
 ## Goals
 
 Our goals are to:
-- **Trace Funds**: Confirm on-chain traces of the $87 million withdrawn from $LIBRA liquidity pools, tracing USDC and SOL to CEX deposit addresses to quantify off-ramping and identify cashout methods.
+- **Trace Funds**: Confirm on-chain traces of the millions withdrawn from $LIBRA liquidity pools, tracing USDC and SOL to CEX deposit addresses to quantify off-ramping and identify cashout methods.
 - **Assess Rapid Cashouts**: Analyze transaction timestamps to determine the speed of insider cashouts, confirming whether they acted before significant action could be taken, addressing concerns about regulatory lag and market oversight.
 - **Ensure Transparency**: Open-source all code, data, and findings, allowing independent verification and reproducibility, building trust with affected users, X users, and the broader community.
 - **Foster Collaboration**: Engage national universities, particularly in Argentina, to leverage their compute power, expertise, and outreach, scaling the investigation efficiently and enhancing credibility.
@@ -35,13 +35,13 @@ Our goals are to:
 
 ## Scope
 
-The initial scope of **OpenBlockchainForensics-Solana** is focused on the $LIBRA token investigation, specifically tracing the $87 million to CEXs, as this is the most likely off-ramping method based on available reports and evidence of CEX activity. This focused strategy reduces resource demands while producing actionable results, with the option to expand to other strategies (e.g., tracing mixers, cross-chain bridges, P2P/OTC activity) if needed.
+The initial scope of **OpenBlockchainForensics-Solana** is focused on the $LIBRA token investigation, specifically tracing the millions to CEXs, as this is the most likely off-ramping method based on available reports and evidence of CEX activity. This focused strategy reduces resource demands while producing actionable results, with the option to expand to other strategies (e.g., tracing mixers, cross-chain bridges, P2P/OTC activity) if needed.
 
 Future expansions may include additional Solana-based investigations, leveraging the methodologies and tools developed here to set a standard for blockchain forensics.
 
 ## Methodology
 
-Our methodology for tracing the $87 million to CEXs is structured as follows:
+Our methodology for tracing the millions to CEXs is structured as follows:
 
 1. **Identify Liquidity Pool Withdrawals**:
    - Locate the $LIBRA liquidity pool addresses on DEXs like Meteora and Raydium using Solscan or Dexscreener.
