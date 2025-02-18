@@ -84,8 +84,21 @@ To set up the environment and run the scripts, follow these steps:
 3. Set up Solana data access:
   - Obtain access to a Solana RPC node (e.g., via QuickNode, Helius, or a local node) to query transaction data. Update the API endpoint in the scripts as needed.
   - lternatively, use publicly available data from Solscan for initial testing, but note that full-scale analysis requires direct blockchain access.
-4. Run scripts
+4. Run scripts, Testing and Expanding
   - See the Usage Examples (#usage-examples) section for instructions on running specific scripts.
+  - These scripts are prototypes. You'll need to expand `collect_transactions.py` to actually use the Solana API once you have access. The `solders` library provides a Python interface for Solana's JSON-RPC API.
+  - For `trace_to_cexs.py`, you'll need to read real CEX addresses from a CSV or another data source rather than using the mock function.
+  - For `visualize_flows.py`, you might want to enhance the visualization further, perhaps by color-coding nodes based on transaction types or token types.
+5. Commit and Push
+   - Add these files to your repository
+  ```bash
+git add scripts/data_collection/collect_transactions.py
+git add scripts/tracing/trace_to_cexs.py
+git add scripts/visualization/visualize_flows.py
+git commit -m "Added initial prototype scripts for data collection, tracing, and visualization"
+git push origin main
+```
+Remember, these are placeholders, so once you have access to real Solana data, you'll need to replace the mock functions with actual API calls using the solders library or similar tools.
 
 ## Usage Examples
 Below are examples of how to use the scripts in the repository. Note that these are placeholders, as the scripts are under development. Contributions are welcome to implement and expand these functionalities.
